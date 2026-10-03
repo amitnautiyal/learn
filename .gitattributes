@@ -1,0 +1,12 @@
+# Handle text files automatically and normalize to LF in the repo
+* text=auto eol=lf
+
+# Explicitly declare text files you want normalized
+*.cs text
+*.csproj text
+*.sln text
+*.json text
+
+# Denote binary files that should not be touched
+*.png binary
+*.jpg binary
